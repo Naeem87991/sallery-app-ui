@@ -1,0 +1,30 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+
+# Local tooling state
+.npm-cache/
+*.tsbuildinfo
+_phase2-build-check/
+_vercel-build-verification/
+test-results/
+playwright-report/
+
+# Local-only retained predecessor implementation
+legacy-prototype/
+
+# Environment files
+.env*
+!.env.example
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.vercel
+
+# Agent tooling state
+.codex/
+.agents/
